@@ -9,6 +9,7 @@ Here are the steps to download and run the program in visual studio code.
 > - Then, you will get all the files in your folder.
 > - Open visual studio code from this folder.
 > - **Run** the files which are inside the **test folder**
+> - change the provided input manually for getting different output.
 
 How to run the files which are inside the test folder.
 
