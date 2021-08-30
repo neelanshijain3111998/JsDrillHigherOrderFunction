@@ -16,9 +16,6 @@ function find(elements, cb) {
   }
 }
 
-const ValueGreaterThanTwo = (element) => element > 2; //condition check
-
 module.exports = {
   PublicFind: find,
-  PublicGreaterThanTwo: ValueGreaterThanTwo,
 };

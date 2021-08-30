@@ -6,11 +6,6 @@ function reduce(elements, cb, startingValue) {
   return startingValue;
 }
 
-const SumOfAll = function (startingValue, element) {
-  return startingValue + element;
-};
-
 module.exports = {
   PublicReduce: reduce,
-  PublicSum: SumOfAll,
 };

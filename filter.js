@@ -14,5 +14,4 @@ const EvenNumbers = (element) => element % 2 == 0; //check element is even or no
 
 module.exports = {
   PublicFilter: filter,
-  PublicEvenNumbers: EvenNumbers,
 };
