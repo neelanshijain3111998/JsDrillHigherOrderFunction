@@ -1,4 +1,4 @@
-////reduce() is to return the sum of all the elements in an array.
+////reduce() is to return the sumg of all the elements in an array.
 const items = [1, 2, 3, 4, 5, 5];
 
 StartingValue = 0;
