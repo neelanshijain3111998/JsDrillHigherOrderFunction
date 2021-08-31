@@ -1,7 +1,7 @@
 //const elements = [1, [2], [[3]], [[[4]]]]; // use this to test 'flatten'
 // output=[1,2,3,4]
 
-const flatten = function (elements) {
+const flatten = (elements) => {
   let output = [];
 
   //check elements is array or value

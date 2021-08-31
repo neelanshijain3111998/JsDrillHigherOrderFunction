@@ -5,4 +5,4 @@ const id1 = require("../find.js");
 
 const ValueGreaterThanTwo = (element) => element > 2; //condition check
 
-console.log(id1.PublicFind(items, ValueGreaterThanTwo)); //display element which satisfy condition else display undefined.
+console.log(`Value > 2 is ${id1.PublicFind(items, ValueGreaterThanTwo)}`); //display element which satisfy condition else display undefined.

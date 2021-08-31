@@ -6,7 +6,7 @@
 //const items = [1, 2, 3, 4, 5, 5];
 
 //higher order function
-const map = function (elements, cb) {
+const map = (elements, cb) => {
   let array = [];
   for (let i = 0; i < elements.length; i++) {
     array[i] = cb(elements[i]);
