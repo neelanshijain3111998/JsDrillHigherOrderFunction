@@ -1,6 +1,5 @@
-Js Drill HigherOrder
+# Js Drill HigherOrder
 
-# JS Drills Cars
 
 Here are the steps to download and run the program in visual studio code.
 
