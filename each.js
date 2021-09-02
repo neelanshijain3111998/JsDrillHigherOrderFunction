@@ -3,6 +3,7 @@
 //The Each() method executes a provided function once for each array element.
 
 //higherOrderfunction
+
 const each = (elements, cb) => {
   for (let i = 0; i < elements.length; i++) {
     cb(elements[i]); //using for loop calling callback function.
