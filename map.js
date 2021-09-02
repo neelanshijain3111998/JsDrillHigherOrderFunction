@@ -11,6 +11,7 @@ const map = (elements, cb) => {
   for (let i = 0; i < elements.length; i++) {
     array[i] = cb(elements[i]);
   }
+
   console.log(elements);
   return array; //Array of odd even
 };

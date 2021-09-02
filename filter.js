@@ -1,6 +1,7 @@
 //Program=Select Even no's from array
 //The filter() method creates a new array with all elements
 // that pass the test implemented by the provided function.
+//const items = [1, 2, 3, 4, 5, 5];
 
 const filter = (elements, cb) => {
   let Evenarray = [];

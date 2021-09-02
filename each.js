@@ -4,8 +4,6 @@
 
 //higherOrderfunction
 const each = (elements, cb) => {
-  console.log(elements);
-  console.log("After Multiply by 10");
   for (let i = 0; i < elements.length; i++) {
     cb(elements[i]); //using for loop calling callback function.
   }
