@@ -4,11 +4,11 @@
 //const items = [1, 2, 3, 4, 5, 5];
 
 const filter = (elements, cb) => {
-  let evenArray = [];
+  let EvenArray = [];
   for (let i = 0; i < elements.length; i++) {
-    if (cb(elements[i])) evenArray.push(elements[i]); //if Cb return true then store the element in array.
+    if (cb(elements[i])) EvenArray.push(elements[i]); //if Cb return true then store the element in array.
   }
-  return evenArray; //return an array of all elements that passed the truth test
+  return EvenArray; //return an array of all elements that passed the truth test
 };
 
 module.exports = {

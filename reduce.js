@@ -1,9 +1,9 @@
 //reduce() is to return the sum of all the elements in an array.
-const reduce = function (elements, cb, startingValue) {
+const reduce = function (elements, cb, StartingValue) {
   for (let i = 0; i < elements.length; i++) {
-    startingValue = cb(startingValue, elements[i]);
+    StartingValue = cb(StartingValue, elements[i]);
   }
-  return startingValue;
+  return StartingValue;
 };
 
 module.exports = {
